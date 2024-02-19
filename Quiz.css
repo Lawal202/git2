@@ -1,0 +1,55 @@
+.main div{
+margin: auto;
+margin-top: 10px;
+text-align: center;
+background-color: bisque;
+width: 400px;
+border: 1px;
+height: 150px
+
+}
+
+h1,h2{
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* #quizContainer{
+    padding-top: 10px;
+    margin-top: 7px;
+    height: 30px;
+    width: 300px;
+    font-weight: bold;
+    font-style: normal;
+} */
+
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+margin-top: 8px;
+border: 1px solid coral;
+border-radius: 5px;
+cursor: pointer;
+}
+
+li:hover{
+    background-color: coral;
+}
+
+button{
+    background-color: chocolate;
+    color: whitesmoke;
+    margin-top: 10px;
+    height: 40px;
+    font-style: normal;
+    font-weight: bold;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    margin-right: 150px;
+    cursor: pointer;
+}
