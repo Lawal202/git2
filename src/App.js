@@ -1,22 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from "./header";
+import MainContent from "./maincontent";
+import Footer from "./footer";
 
-function Header(){
+function App(){
 return(
-  <h1>
-    Good Afternoon
-  </h1>
-)
+  <div>
+    <Header/>
+    <MainContent/>
+    <Footer/>
+  </div>
+);
 }
 
 
-function maincontent() {
-  return(
-    <div>
-      <Header/>
-      <footer/>
-    </div>
-  );
-}
-
-// export default App;
+export default App;
